@@ -1,0 +1,81 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?bb1057d33c1794e804e3dc545b9d468f") format("truetype"),
+url("./flaticon.woff?bb1057d33c1794e804e3dc545b9d468f") format("woff"),
+url("./flaticon.woff2?bb1057d33c1794e804e3dc545b9d468f") format("woff2"),
+url("./flaticon.eot?bb1057d33c1794e804e3dc545b9d468f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?bb1057d33c1794e804e3dc545b9d468f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "call": "\f101",
+    "search": "\f102",
+    "guarantee": "\f103",
+    "speed": "\f104",
+    "reliability": "\f105",
+    "key-outline": "\f106",
+    "talent": "\f107",
+    "personal": "\f108",
+    "loan": "\f109",
+    "loan-1": "\f10a",
+    "innovation": "\f10b",
+    "play-button": "\f10c",
+    "loan-2": "\f10d",
+    "education": "\f10e",
+);
+
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-speed:before {
+    content: map-get($flaticon-map, "speed");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-key-outline:before {
+    content: map-get($flaticon-map, "key-outline");
+}
+.flaticon-talent:before {
+    content: map-get($flaticon-map, "talent");
+}
+.flaticon-personal:before {
+    content: map-get($flaticon-map, "personal");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-loan-1:before {
+    content: map-get($flaticon-map, "loan-1");
+}
+.flaticon-innovation:before {
+    content: map-get($flaticon-map, "innovation");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-loan-2:before {
+    content: map-get($flaticon-map, "loan-2");
+}
+.flaticon-education:before {
+    content: map-get($flaticon-map, "education");
+}
