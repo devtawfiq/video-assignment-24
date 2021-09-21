@@ -393,3 +393,108 @@ a{
     margin-top: -8px;
 }
 
+/* -------------Apply Now section ------------ */
+.timeline{}
+.timeline h2 {
+    font-size: 33px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.step-timeline{}
+.step-timeline ul {
+    list-style: none;
+    position: relative;
+    padding-left: 65px;
+    display: inline-block;
+}
+.step-timeline ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 1px;
+    height: calc(100% - 100px);
+    background: #e83b3e;
+}
+
+.step-timeline ul li {
+    margin-bottom: 35px;
+    position: relative;
+}
+.step-timeline ul li::before {
+    content: attr(data-counter);
+    position: absolute;
+    top: 0;
+    left: -71px;
+    width: 40px;
+    height: 40px;
+    background: #f9fafb;
+    border: 1px solid #e83b3e;
+    color: #e83b3e;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.step-timeline ul li strong {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.step-timeline ul li p{}
+
+.calculate-rate {
+    background: #fdebeb;
+    padding: 40px;
+    margin-top: 25px;
+}
+
+
+.calculate-form .form-group{}
+.calculate-form .form-group label {
+    margin-bottom: 3px;
+}
+.calculate-form .form-group input {
+    border: none;
+    padding: 13px 10px;
+    outline: none;
+    border-radius: 0;
+    margin-bottom: 10;
+}
+.calculate-form .form-group input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.calculate-form .form-group select {
+    height: 51px;
+    border: none;
+    color: #606060;
+}
+.calculate-form .form-group select:focus {
+    box-shadow: none;
+}
+.calculate-form .form-group select option{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
